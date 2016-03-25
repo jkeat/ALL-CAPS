@@ -15,6 +15,15 @@ $(function() {
         }
         let percentWidth = (100 / letters.length).toString() + "%";
         $capWord.children(".cap-letter").css("width", percentWidth);
+        if (letters.length > 26) {
+          $capWord.children(".cap-letter").css("padding", "0 4px");
+        } else if (letters.length > 16) {
+          $capWord.children(".cap-letter").css("padding", "0 9px");
+        } else if (letters.length > 8) {
+          $capWord.children(".cap-letter").css("padding", "0 15px");
+        } else {
+          $capWord.children(".cap-letter").css("padding", "0 30px");
+        }
       }
     });
 });
