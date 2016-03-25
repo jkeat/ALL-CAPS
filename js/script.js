@@ -2,7 +2,7 @@ $(function() {
     $(document).on("keyup", "#letters", function () {
       let $capWords = $("#cap-words");
       $capWords.empty();
-      let cleanedUpValue = this.value.toLowerCase().replace(/[^a-z ]/g, "");
+      let cleanedUpValue = this.value.toLowerCase().replace(/[^ a-z]/g, "");
       let words = cleanedUpValue.split(' ');
       for (j = 0; j < words.length; j++) {
         let $capWord = $("<div class='cap-word'></div>")
