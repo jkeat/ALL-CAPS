@@ -16,13 +16,13 @@ $(function() {
         let percentWidth = (100 / letters.length).toString() + "%";
         $capWord.children(".cap-letter").css("width", percentWidth);
         if (letters.length > 26) {
-          $capWord.children(".cap-letter").css("padding", "0 4px");
+          $capWord.children(".cap-letter").addClass("letters-lvl-4");
         } else if (letters.length > 16) {
-          $capWord.children(".cap-letter").css("padding", "0 9px");
+          $capWord.children(".cap-letter").addClass("letters-lvl-3");
         } else if (letters.length > 8) {
-          $capWord.children(".cap-letter").css("padding", "0 15px");
+          $capWord.children(".cap-letter").addClass("letters-lvl-2");
         } else {
-          $capWord.children(".cap-letter").css("padding", "0 30px");
+          $capWord.children(".cap-letter").addClass("letters-lvl-1");
         }
       }
     });

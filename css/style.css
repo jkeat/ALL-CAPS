@@ -13,8 +13,30 @@
 	box-sizing: border-box;
 	max-width: 200px;
 }
-@media only screen and (max-width: 500px) {
-	.cap-letter {
-		padding: 0 10px;
+
+.cap-letter.letters-lvl-1 {
+	padding: 0 30px;
+}
+.cap-letter.letters-lvl-2 {
+	padding: 0 15px;
+}
+.cap-letter.letters-lvl-3 {
+	padding: 0 9px;
+}
+.cap-letter.letters-lvl-4 {
+	padding: 0 4px;
+}
+@media only screen and (max-width: 600px) {
+	.cap-letter.letters-lvl-1 {
+		padding: 0 8px;
+	}
+	.cap-letter.letters-lvl-2 {
+		padding: 0 4px;
+	}
+	.cap-letter.letters-lvl-3 {
+		padding: 0 2px;
+	}
+	.cap-letter.letters-lvl-4 {
+		padding: 0 1px;
 	}
 }
