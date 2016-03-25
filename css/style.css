@@ -27,6 +27,12 @@
 	padding: 0 4px;
 }
 @media only screen and (max-width: 600px) {
+	#content {
+		padding: 70px 0 20px;
+	}
+	.cap-word {
+		padding: 40px 0;
+	}
 	.cap-letter.letters-lvl-1 {
 		padding: 0 8px;
 	}
