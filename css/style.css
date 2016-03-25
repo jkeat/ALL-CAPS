@@ -6,8 +6,10 @@
 #content {
 	padding: 100px 0 40px;
 }
+.cap-word {
+	padding: 40px 0;
+}
 .cap-letter {
-	padding: 0 30px;
 	box-sizing: border-box;
 	max-width: 200px;
 }
